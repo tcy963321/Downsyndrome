@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewsport" content="width=device-width,initial-scale=1.0">
+
+<style>
+body{
+			
+			background-image:url(animals/1.jpg);
+			background-repeat:no-repeat;
+			background-attachment:fixed;
+			background-size:100% 100%;
+			
+			}
+
+form{
+
+	position:absolute;
+	right:10px;
+	top:70px;
+	}
+	
+	p{
+	position:absolute;
+	right:10px;
+	top:210px;
+	}
+	
+	.glow {
+  font-size:30px;
+  color: #fff;
+  text-align: left;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
+.glow1 {
+  font-size: 50px;
+  color: #fff;
+  text-align:center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+	</style>
+	<head>
+	
+	<script>
+				function play(index){
+				var audio = document.getElementById("audio"+index);
+				audio.play();
+				document.getElementById("word").innerHTML = "Bird";
+				}
+
+	</script>
+	
+	<script>
+    function play2(index){
+        var audio = document.getElementById("audio2"+index);
+        audio.play2();
+    }
+</script>
+	
+	</head>
+	<body>
+	<center><h1 class="glow1" id="word"></h1></center>
+	<form>
+	<a nohref value="PLAY" onmouseover="play(1)"><img src="animals\oviporous animal/birds_PNG.png" alt="bird" style="width:200px;height:200px;"></a>
+	<audio id="audio1" src="animals\oviporous animal/bird.mp3"></audio>
+	</form>
+	<p><a nohref value="PLAY2"  onmouseover="play(2)"><img src="animals/oviporous animal/bird.png" alt="bird" style="width:200px;height:200px;"></a>
+<audio id="audio2" src="audio/ovi.mpeg"></p></audio>
+	<a href="ovicourse.html"><h1 class="glow">Back << </h1></a>
+	</body>
+	</html>
+			

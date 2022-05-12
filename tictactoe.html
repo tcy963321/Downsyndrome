@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {box-sizing:border-box;}
+        body {width:100%;max-width:500px;padding: 0 20px;margin: 0 auto;font: 20px arial;text-align:center;}
+        h1 {font-size:32px;width:100%;margin:20px auto;}
+        #game,#reset {margin: 20px auto 0;display: block;width:100%;}
+        #scoreboard {border:2px solid #ccc;width:100%;margin:10px auto;padding:10px;}
+        ul {display:flex;list-style:none;margin:0;padding:0;width:100%;}
+        li {margin:0;padding:0;flex-grow:1;}
+        button {border:1px solid #ccc;background:#fefefe;padding:7px 14px;margin:10px 20px;}
+    </style>
+</head>
+<body bgcolor="#F5F5DC">
+    <h1>Tic Tac Toe</h1>
+    <div id="scoreboard">
+        <ul>
+            <li>X: <span id="score_x"></span></li>
+            <li>Ties: <span id="score_tie"></span></li>
+            <li>O: <span id="score_o"></span></li>
+        </ul>
+    </div>
+    <div id="reset">
+        <button id="resetScore">Reset score</button>
+        <button id="resetGame">New Game</button>
+    </div>
+    <canvas id="game" width="500" height="500">
+        This text is displayed if your browser does not support HTML5 Canvas.
+    </canvas>
+    <script async src="./triplet.js"></script>
+</body>
+</html>
