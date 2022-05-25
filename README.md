@@ -3,6 +3,9 @@
 ## Project 
 Type of Website is website for educational or learning. Type of Website is website for educational or learning. The education websites that we provide will be more learning information. The more learning information can be variety such as different type of resources, audio, image, video, and etc. The aim of this websites to produce make it easily understand and clear to users study.
 
+##  Intended audience
+This website is invented for special needs(disability), especially Down Syndrome patients. We invent it for the facility to the Down Syndrome patient to learn what the normal people learn. This website can make their learning process become more efficient and easier to understand. That is what our website are built for. 
+
 #  Working title of each page on website
 1. Homepage
  - Page where info and menu bar are located in this website.
